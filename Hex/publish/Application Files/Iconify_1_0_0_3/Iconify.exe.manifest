@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Iconify.exe" version="1.0.0.3" publicKeyToken="7067ab6d3e43057e" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="favicon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Iconify" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Iconify.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Iconify.exe" size="126888">
+      <assemblyIdentity name="Iconify" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>MlBqPyR8Usp5FpU0fiJXsaREER3SZtWEpRx+juJdDE8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="favicon.ico" size="31807">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zBRxQMMS39LtcG+barbMtBeKO08KrnpeQOcfYcOWVJY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Iconify.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Glen-PC\Owen" issuerKeyHash="a1ab2c12c200524f5f49952a89bd928963d9c5cf" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>yUsoBnDeFM0g3VbRLmfRh+NqJi5eeIwQaMokwLR+VuA=</DigestValue></Reference></SignedInfo><SignatureValue>mHE+BC71tNI0pB6oROtNXM/L/SgBUy095D7Cpu/B9xq+zkPbp2Pidkm5/W49VbqrVFCDQwYTg92row2LeZG/iwRBhlDwE842I2AlLrZ1K3FDPhZDJ/Naa0O5khyZG2Sh6r2K6UCQu8CqU3bLndtH+kqsW5ljtggWu9p3SzY62wA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uGEfuIs+tGESlJrUE3r4Fxfd26Uf0fOTrmYYGE5M1LNy0iRTLhKLGhWlRnB9/eEwJCq+1LWyc31yvupH9d69+jd1lGhQyIb5QIFnQ+AOBFNxYs4/ZyJM3ZxpLP1cTERujdg4rJ0HApF94jRRgkVID+pugJE8+YItsCkoskTx0qc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e0567eb4c024ca68108c785e2e266ae387d1672ed156dd20cd14de7006284bc9" Description="" Url=""><as:assemblyIdentity name="Iconify.exe" version="1.0.0.3" publicKeyToken="7067ab6d3e43057e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Glen-PC\Owen</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>qK43ZFF/zTPm9uVqz4c5zjI/+Pvufs8whHUAJzli448=</DigestValue></Reference></SignedInfo><SignatureValue>djoLSB0D12jfuTQuQMgvR+wTjAtWFsZqQVrCEnzhGcYcLlBLEue3Q9LAzYxNjUQBfvIjbpUYg7pfxn+1QJ3XU8oBAa0HHR1z58f+6eCLkpdLENgGNS4DUtm6N3XQ/aQAkUmY18kBoTfLHWim7DP9hd/KQKqP7wPkrkKjz1y49SQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uGEfuIs+tGESlJrUE3r4Fxfd26Uf0fOTrmYYGE5M1LNy0iRTLhKLGhWlRnB9/eEwJCq+1LWyc31yvupH9d69+jd1lGhQyIb5QIFnQ+AOBFNxYs4/ZyJM3ZxpLP1cTERujdg4rJ0HApF94jRRgkVID+pugJE8+YItsCkoskTx0qc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQE6sqxItL1KdOuvDiuyO46zANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgARwBsAGUAbgAtAFAAQwBcAE8AdwBlAG4wHhcNMTgwMzExMjExMjIwWhcNMTkwMzEyMDMxMjIwWjAjMSEwHwYDVQQDHhgARwBsAGUAbgAtAFAAQwBcAE8AdwBlAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALhhH7iLPrRhEpSa1BN6+BcX3dulH9Hzk65mGBhOTNSzctIkUy4SixoVpUZwff3hMCQqvtS1snN9cr7qR/Xevfo3dZRoUMiG+UCBZ0PgDgRTcWLOP2ciTN2caSz9XExEbo3YOKydBwKRfeI0UYJFSA/qboCRPPmCLbApKLJE8dKnAgMBAAEwDQYJKoZIhvcNAQELBQADgYEASycx29+wS23AAR67oZfcJPOfQoq+trydlkY9KNBbwE3rpqbDcYePLSYKr0gIMTW3L/h59nblk3kXtvuNoeEYtX4dZJTbRfVopCwHqAH0L4kQbbFFxMydrKrUDv96Z6hhaMMl7ymL791uzjdgmfqErenk3JUazWWk20GwG36gndU=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,11 @@
+W:\Development\Hex\Hex\bin\Debug\Hex.exe.config
+W:\Development\Hex\Hex\bin\Debug\Hex.exe
+W:\Development\Hex\Hex\bin\Debug\Hex.pdb
+W:\Development\Hex\Hex\obj\Debug\Hex.csprojResolveAssemblyReference.cache
+W:\Development\Hex\Hex\obj\Debug\Hex.Form1.resources
+W:\Development\Hex\Hex\obj\Debug\Hex.Properties.Resources.resources
+W:\Development\Hex\Hex\obj\Debug\Hex.csproj.GenerateResource.Cache
+W:\Development\Hex\Hex\obj\Debug\Hex.exe
+W:\Development\Hex\Hex\obj\Debug\Hex.pdb
+W:\Development\Hex\Hex\obj\Debug\YLScsImage.Frame.resources
+W:\Development\Hex\Hex\obj\Debug\Hex.Form2.resources
